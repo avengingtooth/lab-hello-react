@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  margin: 5%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img{
+  width: 5rem;
+}
+
+.section1{
+  background-color: rgb(40, 40, 40);
+  padding: 5%;
+  color: white;
+  text-align: left;
+}
+
+.section1 h1{
+  width: 50%;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+.section1 p{
+  width: 30%;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.section1 button{
+  padding:1% 2% 1% 2%;
+  color: rgb(40, 40, 40);
+  font-weight: bold;
+}
+
+.infographic{
+  display: grid;
+  grid-template-columns: repeat(4, 15%);
+  justify-content: center;
+  gap: 10%;
+  text-align: left;
+  columns: rgb(40, 40, 40);
+  padding: 15% 2% 1% 2%;
+}
+
+.infographic img{
+  width: 90%;
+}
+
+.infographic > div{
+  font-weight: 200;
+}
